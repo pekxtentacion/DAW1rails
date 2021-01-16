@@ -1,0 +1,61 @@
+<header>
+  <div class="nav-wrap">
+    <div class="nav-block"></div>
+    <a href="index.html" class="logo-name">
+      La italiana - Gestión
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#" class="align">Gestionar<i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="/pizzas">Pizzas</a></li>
+            <li><a href="/bebidas">Bebidas</a></li>
+            <li><a href="/complementos">Complementos</a></li>
+            <li><a href="/postres">Postres</a></li>
+          </ul></li>
+        <li><a href="#" class="align">Carta<i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="pizzashtml.html">Pizzas</a></li>
+            <li><a href="pizzashtml.html">Complementos</a></li>
+            <li><a href="pizzashtml.html">Bebidas</a></li>
+            <li><a href="pizzashtml.html">Postres</a></li>
+          </ul></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="content">
+<p id="notice"><%= notice %></p>
+
+<h1>Postres</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Source</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @postres.each do |postre| %>
+      <tr>
+        <td><%= postre.nombre %></td>
+        <td><%= postre.precio %></td>
+        <td><%= postre.source %></td>
+        <td><%= link_to 'Ver', postre %></td>
+        <td><%= link_to 'Editar', edit_postre_path(postre) %></td>
+        <td><%= link_to 'Eliminar', postre, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Añadir Postre', new_postre_path %>
+</div>

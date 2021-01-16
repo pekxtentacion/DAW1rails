@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Cocacola 1L",
+        "id": "C3",
+        "precio": "2,50€",
+        "source": "images/cocacola.jpg",
+        "html": ""
+    },
+    {
+        "nombre": "Fanta 1L",
+        "id": "C4",
+        "precio": "2,50€",
+        "source": "images/Fanta-Logo.png",
+        "html": ""
+    },
+    {
+        "nombre": "Clipper 1L",
+        "id": "C5",
+        "precio": "2,50€",
+        "source": "images/clipper.jpg",
+        "html": ""
+    },
+    {
+        "nombre": "Agua 1L",
+        "id": "C6",
+        "precio": "1,50€",
+        "source": "images/LG-AQUAVIA-cuadrado.jpg",
+        "html": ""
+    }
+]

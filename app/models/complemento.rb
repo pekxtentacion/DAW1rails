@@ -1,0 +1,2 @@
+class Complemento < ApplicationRecord
+end

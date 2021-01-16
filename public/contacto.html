@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>La Italiana - Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="nav-wrap">
+            <div class="nav-block"></div>
+            <a href="index.html">
+                <img src="images/Logo.png" alt="logo" class="logo">
+            </a>
+            <a href="index.html" class="logo-name">
+                La italiana
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="align">Carta<i class="fa fa-caret-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="pizzashtml.html">Pizzas</a></li>
+                            <li><a href="pizzashtml.html">Complementos</a></li>
+                            <li><a href="pizzashtml.html">Bebidas</a></li>
+                            <li><a href="pizzashtml.html">Postres</a></li>
+                        </ul></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="portada">
+            <img src="images/portada-contacto.png" alt="portada">
+        </div>
+    </header>
+    <div class="wrapper-contacto">
+        <section class="form">
+            <h1>¡Cuéntanos algo!</h1>
+            <form method="POST"> 
+                <label>Nombre Completo</label><br>
+                <input class="nombre" type="text" name="nombre" required autofocus/><br>
+                <label>Email</label><br>
+                <input class="email" type="email" name="email" required/><br>
+                <label>Telefono</label><br>
+                <input class="phone" type="text" name="phone" required /><br>
+                <label>Tu mensaje</label><br>
+                <input class="mensaje" type="text" name="mensaje" minlength="10"/><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h1> Información del contacto</h1>
+            <div>Av juan Carlos I S/N CC Las Ramblas, 35019 Las Palmas de Gran Canaria,</div>
+            <div>Llamanos- 928 2982982 982</div>
+            <div>Abrimos de lunes a viernes de 13:00 a 23:00</div>
+            <h1> Síguenos</h1>
+            <div>Facebook - Instagram - Twitter</div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-img">
+            <img src="images/instagram.png" alt="instagram" class="instagram">
+            <img src="images/maps.png" alt="maps" class="maps">
+            <img src="images/phone.png" alt="phone" class="phone">
+            <img src="images/twitter.png" alt="twitter" class="twitter">
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-terms">
+                <a href="contacto.html">Contacto</a>
+                <a href="#">Términos y condiciones</a>
+            </div>
+    
+            <div class="footer-copy">
+                © 2020 La Italiana
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

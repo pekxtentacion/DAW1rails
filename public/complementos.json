@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "Pan de Ajo",
+        "id": "C1",
+        "precio": "2,50€",
+        "source": "images/Pan-de-ajo-y-queso.jpg", 
+        "html": ""
+    }, 
+    {
+        "nombre": "Aros Cebolla",
+        "id": "C2",
+        "precio": "2,50€",
+        "source": "images/aros-de-cebolla.jpg", 
+        "html": ""
+    }
+]

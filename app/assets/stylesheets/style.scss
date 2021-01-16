@@ -1,0 +1,622 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif!important;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.content {
+  margin: 0.5em;
+}
+
+header img{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.portada {
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: center;
+}
+
+.caption {
+    background-color: #008705;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+}
+
+.caption > p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+article.portada-article {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 60% 15%;
+    padding: 10px;
+}
+
+article > section.portada-section {
+    text-align: left;
+    padding: 20px;
+}
+
+article > aside.portada-aside > img {
+    width: 183px;
+    height: 457px;
+}
+
+.wrapper-contacto {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 25%;
+    padding: 10px;
+}
+
+
+
+.nav-block{
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 60px;
+    max-height: 200px;
+    max-width: 90px;
+    background: #008705;
+}
+
+.nav-wrap{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #CC0000;
+
+}
+
+.logo {
+    position: relative;
+    float: left;
+    width: 111px;
+    height: 60px;
+}
+
+.logo-name {
+    position: relative;
+    float: left;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;  
+    margin-left: 1%;
+    line-height: 60px;
+    height: 50.91px;
+}
+
+nav{
+    position: relative;
+    float: right;
+    max-width: 50%;
+    width: 25%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav li {
+    margin-right: 8%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.pizzastitulo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 72px;
+    margin-left: 5%;
+
+}
+.descriptionpizzas{
+    margin-left: 5%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 24px;
+}
+.complementostitulo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 50px;
+    margin-left: 5%;
+
+}
+
+.pizzas{
+    font-family: 'Red Hat Display', sans-serif;
+    /*padding: 1em 2em;*/
+    /*margin-left: 1em;*/
+}
+
+
+.main-pizza {
+    width: 387px;
+    height: 283px;
+    
+    background: #E6E6E6;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+.main-pizza > img{
+    width: 387px;
+    height: 208px;
+    left: 203px;
+    top: 301px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+
+.pizza-text{
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.pizza-title {
+    margin-left: 0.5em;
+}
+
+.pizza-price {
+    margin-right: 1em;
+}
+
+.marginsetup {
+    margin: 0;
+}
+
+.marginsetup > div{
+    margin: 0 0 0 0;
+}
+
+.precio-right{
+    float: right;
+}
+
+nav a > i{
+    display: inline;
+}
+
+nav li > ul.dropdown {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 111px;
+    background: #CC0000;
+    padding-top: 0;
+}
+
+nav li > ul.dropdown li {
+    display: block;
+    padding-top: 1%;
+    list-style-type: none;
+}
+
+nav li > ul.dropdown li a {
+    text-align: end;
+    font-size: 17px;
+    color: white;
+    display: block;
+}
+
+section.portada-section > p {
+    text-align: justify;
+}
+
+nav li:hover > ul.dropdown {
+    display: block;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+a:hover{
+    color: white!important;
+}
+
+footer {
+    margin-top: 10%;
+    position: relative;
+    /*left: 0;*/
+    /*bottom: 0;*/
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    clear: both;
+}
+
+.footer-bottom{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    color: #797979;
+    
+}
+
+.footer-terms{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-terms a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1%;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img img{
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+.footer-img img.instagram{
+    width: 59px;
+    height: 40px;
+}
+
+.footer-img img.maps{
+    width: 44px;
+    height: 40px;
+}
+
+.footer-img img.phone{
+    width: 38px;
+    height: 40px;
+}
+
+.footer-img img.twitter{
+    width: 49px;
+    height: 47px;
+}
+
+.align{
+    display: flex;
+}
+
+.align > i {
+    margin: 7px 0 0 4px;
+}
+
+.center-pizzas {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main-clientes {
+    width: 387px;
+    height: 208px;
+    
+}
+.main-clientes > img{
+    width: 387px;
+    height: 208px;
+    left: 203px;
+    top: 301px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+.clientestitulo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 36px;
+    margin-left: 5%;
+}
+.extras{ 
+    margin-left: 5%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.tituloproducto{
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+
+p > a{
+    text-decoration: none;
+    color: black;
+}
+
+p:hover > a:hover {
+    color: rgb(75, 75, 75)!important;
+}
+
+.col {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.col > p {
+    font-size: 2em;
+}
+.col > img{
+    width: 20em;
+    height: 11.5em;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.pizza-row{
+    margin: 0!important;
+    
+}
+.pizza-img{
+    margin: 2% 5% 2% 4%;
+}
+.pizza-data{
+    text-align: left;
+    
+}
+
+.pizza-img > img {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.tamañoproducto > p, .masaproducto > p, .cantidadproducto > p, .precioproducto > p {
+    margin: 1em 0 0 0;
+    font-size: 20px;
+}
+
+.tabla{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+.imagencarrito > img{
+    width: 187px;
+    height: 108px;
+    left: 103px;
+    top: 201px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+.eliminar > img{
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+.main-pizza:hover {
+    transform: scale(1.1);
+  }
+.hoverclientes:hover{
+    transform: scale(1.1);
+}
+.table > tbody> tr:hover{
+    background-color:#E6E6E6;
+}
+  
+@media only screen and (min-width : 600px) and (max-width : 1023px) {
+    aside.portada-aside {
+        display:none;
+    }
+
+    
+
+    .logo-name {
+        font-size: 2em;
+    }
+
+    div.row.pizza-row {
+        width: 100%;
+    }
+
+    div.row.pizza-row > div.col.pizza-img > img {
+        min-width: 400px;
+    }
+    
+    div.row.pizza-row > div.col.pizza-data {
+        width: 100%;
+    }
+
+    header > div.nav-wrap > nav {
+        width: 40%;
+    }
+
+    section.portada-section {
+        width:100%;
+    }
+
+    article.portada-article {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+
+    .imagencarrito > img {
+        width: 150px;
+        height: auto;
+    }
+
+    div.wrapper-contacto {
+        grid-template-columns: 50%;
+    }
+
+    div.wrapper-contacto > section:not(.form) {
+        padding-top: 4em;
+    }
+    
+}
+
+@media only screen and (min-width : 425px) and (max-width : 600px) {
+    aside.portada-aside {
+        display:none;
+    }
+
+    div.wrapper-contacto > section:not(.form) {
+        padding-top: 4em;
+    }
+
+    .logo-name {
+        margin-left: 3em;
+        font-size: 2em;
+    }
+
+    div.row.pizza-row > div.col.pizza-img > img {
+        min-width: 400px;
+    }
+
+    div.wrapper-contacto {
+        grid-template-columns: 50%;
+    }
+
+    .imagencarrito {
+        display: none;
+    }
+
+    #auxT {
+        display:none;
+    }
+
+    div.extras {
+        position: relative;
+    }
+
+    header > div.nav-wrap > nav {
+        margin-right: 1em;
+        width: 100%;
+    }
+
+    header > div.nav-wrap {
+        height: 115px;
+    }
+
+    header > div.portada {
+        display: none;
+    }
+
+    section.portada-section {
+        width:100%;
+    }
+
+    article.portada-article {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width : 424px) {
+    .caption {
+        height: 10vh;
+    }
+    
+    aside.portada-aside {
+        display:none;
+    }
+
+    div.wrapper-contacto > section:not(.form) {
+        padding-top: 4em;
+    }
+
+    .logo-name {
+        margin-left: 1em;
+        font-size: 2em;
+    }
+
+    div.row.pizza-row > div.col.pizza-img > img {
+        width: 300px;
+    }
+
+    div.wrapper-contacto {
+        grid-template-columns: 50%;
+    }
+
+    .imagencarrito {
+        display: none;
+    }
+
+    #auxT {
+        display:none;
+    }
+
+    div.extras {
+        position: relative;
+    }
+
+    header > div.nav-wrap > nav {
+        margin-right: 2em;
+        width: 100%;
+    }
+
+    .pizza-text {
+        font-size: 1.5em;
+    }
+
+    .main-pizza {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-pizza > img {
+        width: 100%;
+        height: auto;
+    }
+
+    header > div.nav-wrap {
+        height: 120px;
+    }
+
+    header > div.portada {
+        display: none;
+    }
+
+    section.portada-section {
+        width:100%;
+    }
+
+    article.portada-article {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+}
+  

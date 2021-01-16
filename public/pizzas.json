@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "4 Quesos",
+        "id": "P1",
+        "precio": "7,50€",
+        "source": "images/pizza_cuatro_quesos.jpg",
+        "html": "pizza.html?id=P1",
+        "ingredientes": "Tomate, Mozarrella, Ricotta, Gorgonzola y Parmesano"
+    },
+    {
+        "nombre": "Carbonara",
+        "id": "P2",
+        "precio": "7,60€",
+        "source": "images/carbonara.jpg",
+        "html": "pizza.html?id=P2",
+        "ingredientes": "Nata, Bacon, Mozarella, Champiñones y Pimienta negra"
+    },
+    {
+        "nombre": "Piazza",
+        "id": "P3",
+        "precio": "7,50€",
+        "source": "images/17-Pizza-Piazza.jpg",
+        "html": "pizza.html?id=P3",
+        "ingredientes": "Tomate, Mozarrella, Ricotta, Gorgonzola y Parmesano"
+    },
+    {
+        "nombre": "4 Estaciones",
+        "id": "P4",
+        "precio": "7,60€",
+        "source": "images/pizza-4-estaciones.png",
+        "html": "pizza.html?id=P4",
+        "ingredientes": "Alcachofa, Aceitunas negras, Salami, Champiñones, Albahaca, Mozarella, Tomate y Orégano"
+    },
+    {
+        "nombre": "Frutti di Mare",
+        "id": "P5",
+        "precio": "8,50€",
+        "source": "images/pizza-frutti-di-mare.jpg",
+        "html": "pizza.html?id=P5",
+        "ingredientes": "Aceite de oliva, Gambones, Tomate, Mejillones, Anillas de calamar y Albahaca"
+    },
+    {
+        "nombre": "Mediterranea",
+        "id": "P6",
+        "precio": "7,60€",
+        "source": "images/mediterranea.png",
+        "html": "pizza.html?id=P6",
+        "ingredientes": "Sardina, Pimiento verde, Aceitunas negras, Mozarrella y Idiazabal"
+    }
+]

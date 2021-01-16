@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Tarta Queso",
+        "id": "PO1",
+        "precio": "3,50€",
+        "source": "images/bux-1538396997-tarta_de_queso_sin_horno.jpg",
+        "html": ""
+    }, 
+    {
+        "nombre": "Crepe Nutella",
+        "id": "PO2",
+        "precio": "3,50€",
+        "source": "images/crepes-veganas-chocolate.jpg",
+        "html": ""
+    },
+    {
+        "nombre": "Profiterole",
+        "id": "PO3",
+        "precio": "3,50€",
+        "source": "images/chocolateprofiterole_86196_16x9.jpg",
+        "html": ""
+    },
+    {
+        "nombre": "Gofre",
+        "id": "PO4",
+        "precio": "3,50€",
+        "source": "images/gofre.jpg",
+        "html": ""
+    },
+    {
+        "nombre": "Panacota",
+        "id": "PO5",
+        "precio": "3,50€",
+        "source": "images/panacota.jpg",
+        "html": ""
+    },
+    {
+        "nombre": "Brownie",
+        "id": "PO6",
+        "precio": "3,50€",
+        "source": "images/ppal-brownie_0.jpg",
+        "html": ""
+    }
+]

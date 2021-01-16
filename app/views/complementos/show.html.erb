@@ -1,0 +1,49 @@
+<header>
+  <div class="nav-wrap">
+    <div class="nav-block"></div>
+    <a href="index.html" class="logo-name">
+      La italiana - Gestión
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#" class="align">Gestionar<i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="/pizzas">Pizzas</a></li>
+            <li><a href="/bebidas">Bebidas</a></li>
+            <li><a href="/complementos">Complementos</a></li>
+            <li><a href="/postres">Postres</a></li>
+          </ul></li>
+        <li><a href="#" class="align">Carta<i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="pizzashtml.html">Pizzas</a></li>
+            <li><a href="pizzashtml.html">Complementos</a></li>
+            <li><a href="pizzashtml.html">Bebidas</a></li>
+            <li><a href="pizzashtml.html">Postres</a></li>
+          </ul></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="content">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @complemento.nombre %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @complemento.precio %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @complemento.source %>
+</p>
+
+<%= link_to 'Editar', edit_complemento_path(@complemento) %> |
+<%= link_to 'Atrás', complementos_path %>
+</div>

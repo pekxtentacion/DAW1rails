@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>La Italiana - Carrito</title>
+</head>
+<body>
+    <header>
+        <div class="nav-wrap">
+            <div class="nav-block"></div>
+            <a href="index.html">
+                <img src="images/Logo.png" alt="logo" class="logo">
+            </a>
+            <a href="index.html" class="logo-name">
+                La italiana
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="align">Carta<i class="fa fa-caret-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="pizzashtml.html">Pizzas</a></li>
+                            <li><a href="complementoshtml.html">Complementos</a></li>
+                            <li><a href="complementoshtml.html">Bebidas</a></li>
+                            <li><a href="postreshtml.html">Postres</a></li>
+                        </ul></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="/pizzas">Gestionar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="tituloproducto">Carrito</h1>
+    <div class="tabla">
+        <table class="table">
+            <!-- Encabezado de la tabla -->
+            <thead class="thead-dark">
+                <tr>
+                    <th>Producto</th>
+                    <th id="auxT"></th>
+                    <th>Precio</th>
+                    <th>Unidades</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <!-- Cuerpo de la tabla -->
+            <tbody>
+                <tr>
+                    <td class="imagencarrito"><img  src="images/pizza_cuatro_quesos.jpg" alt="Piazza" /></td>
+                    <td>
+                        <p>4 Quesos</p>
+                        <p>Masa Fina</p>
+                        <p>Mediana</p>
+                        <p>Extra Queso</p>
+                        
+                    </td>
+                    
+                    <td>7,80 €</td>
+                    <td>1</td>
+                    <td>7,80€</td>
+                    <td class="eliminar"><img  src="images/eliminar.png" alt="eliminar" /></td>
+                </tr>
+                <tr>
+                    <td class="imagencarrito"><img  src="images/17-Pizza-Piazza.jpg" alt="Piazza" /></td>
+                    <td>
+                        <p>4 Quesos</p>
+                        <p>Masa Gorda</p>
+                        <p>Grande</p>
+                        <p></p>
+                        
+                    </td>
+                    
+                    <td> 10 €</td>
+                    <td>2</td>
+                    <td> 20 €</td>
+                    <td class="eliminar"><img  src="images/eliminar.png" alt="eliminar" /></td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Los clientes también compran</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col hoverclientes">
+                <img src="images/17-Pizza-Piazza.jpg" alt="pizza-1">
+            </div>
+            <div class="col hoverclientes">
+                <img src="images/pizza-frutti-di-mare.jpg" alt="pizza-2">
+            </div>
+            <div class="col hoverclientes">
+                <img src="images/mediterranea.png" alt="pizza-3">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-img">
+            <img src="images/instagram.png" alt="instagram" class="instagram">
+            <img src="images/maps.png" alt="maps" class="maps">
+            <img src="images/phone.png" alt="phone" class="phone">
+            <img src="images/twitter.png" alt="twitter" class="twitter">
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-terms">
+                <a href="contacto.html">Contacto</a>
+                <a href="#">Términos y condiciones</a>
+            </div>
+        
+            <div class="footer-copy">
+                © 2020 La Italiana
+            </div>
+        </div>
+        </footer>
+
+    
+</body>
+</html>
