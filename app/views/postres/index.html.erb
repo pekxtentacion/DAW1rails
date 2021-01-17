@@ -37,7 +37,8 @@
       <th>Nombre</th>
       <th>Precio</th>
       <th>Source</th>
-      <th colspan="3"></th>
+      <th>Imagen</th>
+      <th colspan="4"></th>
     </tr>
   </thead>
 
@@ -47,6 +48,7 @@
         <td><%= postre.nombre %></td>
         <td><%= postre.precio %></td>
         <td><%= postre.source %></td>
+        <td class="imagencarrito"><img src=<%=postre.source%>></td>
         <td><%= link_to 'Ver', postre %></td>
         <td><%= link_to 'Editar', edit_postre_path(postre) %></td>
         <td><%= link_to 'Eliminar', postre, method: :delete, data: { confirm: 'Are you sure?' } %></td>
